@@ -1,0 +1,11 @@
+.tableCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  height: calc(100vh - 386px);
+}
+.titleH3 {
+  margin-bottom: 20px;
+}

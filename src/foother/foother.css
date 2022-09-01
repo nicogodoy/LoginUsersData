@@ -1,0 +1,35 @@
+.footherCont {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  background: gray;
+  width: 100%;
+  height: 300px;
+  color: white;
+}
+
+.iconLetter {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  color: wheat;
+  font-size: 25px;
+  cursor: pointer;
+}
+.iconLetter:hover {
+  color: white;
+}
+.footherSocial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px;
+}
