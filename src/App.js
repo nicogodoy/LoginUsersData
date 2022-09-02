@@ -3,10 +3,10 @@ import { Routes, Route } from "react-router-dom";
 import Header from "./header";
 import Login from "./login";
 import Table from "./table";
-import Foother from "./foother";
+//import Foother from "./foother";
 import List from "./List";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./app.css";
+
 
 function App() {
   const [token, setToken] = useState(false);
@@ -28,9 +28,9 @@ function App() {
         <Route path="/table" element={<Table />} />
         <Route path="/list" element={<List />} />
       </Routes>
-      <footer>
+      {/* <footer>
         <Foother />
-      </footer>
+      </footer> */}
     </>
   );
 }
