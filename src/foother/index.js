@@ -2,6 +2,7 @@ import {
   AiOutlineFacebook,
   AiOutlineInstagram,
   AiOutlineLinkedin,
+  AiOutlineWhatsApp,
 } from "react-icons/ai";
 import "./foother.css";
 
@@ -17,21 +18,22 @@ function Foother() {
           </p>
         </div>
         <div className="footherSocial">
-          <h4>Siguenos</h4>
-
+          <h4 className="titleh4">
+            Siguenos en nuestras redes para mas informacion
+          </h4>
           <ul>
             <li className="iconLetter">
               <AiOutlineFacebook />
-              Facebook
             </li>
 
             <li className="iconLetter">
               <AiOutlineInstagram />
-              Instagram
             </li>
             <li className="iconLetter">
               <AiOutlineLinkedin />
-              LinkedIn
+            </li>
+            <li className="iconLetter">
+              <AiOutlineWhatsApp />
             </li>
           </ul>
         </div>

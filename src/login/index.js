@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useForm } from "react-hook-form";
 import "./login.css";
 import { IoIosMail, IoIosKey } from "react-icons/io";
@@ -47,7 +47,7 @@ export function Index({ setToken }) {
               </label>
               <input
                 type="text"
-                //defaultValue={"admin@gmail.com"}
+                defaultValue={"admin@gmail.com"}
                 className="form-control my-2"
                 {...register("email", {
                   required: true,
@@ -69,7 +69,7 @@ export function Index({ setToken }) {
               </label>
               <input
                 type="password"
-                //defaultValue={"Rql1234*"}
+                defaultValue={"Rql1234*"}
                 className="form-control my-2"
                 {...register("password", {
                   required: true,
